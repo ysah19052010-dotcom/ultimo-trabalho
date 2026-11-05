@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FORMULARIO-MIB HOMENS DE PRETO</title>
+</head>
+<body>
+    <main class="container">
+        <div class="icone">
+            <img src="">
+
+        </div>
+        <h1>Campo de Entrada</h1>
+
+        <p>Preencha o formulário para entrar em sua conta</p>
+
+        <form id="formulário">
+            <!--CAMPO NOME-->
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome"
+            placeholder="Digite seu nome" required>
+
+            <!--CAMPO DE EMAIL-->
+            <label for="email">Digite seu E-mail</label>
+            <input type="email" id="email" placeholder="Digite o seu email">
+
+            <!--CAMPO DE TELEFONE-->
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" placeholder="(11)9999-9999" required>
+
+            <!--CAMPO DE CARGOS-->
+            <label for="cargo">Seu cargo</label>
+            <select id="cargo">
+                <option value="">Selecione uma opção</option>
+                <option value="Agente Veteranos">Agente Veteranos </option>
+                <option value="Agente de Campo">Agente de Campo</option>
+                <option value="Novato">Novato</option>
+                <option value="Pessoal de Apoio e Inteligência">Pessoal de Apoio e Inteligência</option>
+            </select>
+         
+            <!--CAMPO DE OBSERVAÇÃO-->
+            <label for="mensagem">OBSERVAÇÕES:</label>
+            <texterea id="mensagem" placeholder="Digite sua mensagem"></texterea>
+            <button type="submit">Enviar Solicitação</button>
+        </form>
+
+
+
+
+    </main>
+    <script src="./main.js">
+
+    </script>
+</body>
+</html>
